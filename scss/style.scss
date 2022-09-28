@@ -35,3 +35,73 @@
 // GALERY
 
 @import "./main-galery";
+
+
+// RESPONSIVE
+
+@media only screen and (max-width: 1200px) {
+    main {
+        background-color: black;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    main {
+        /* background-image: none; */
+        background-color: black
+    }
+    #contactlogo {
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        height: 511px;
+        width: 720px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    main {
+        /* background-image: none; */
+        background-color: rgb(52, 50, 50);
+    }
+    .galery-images {
+        border: none;
+        width: 318px;
+        height: 205px;
+    }
+    #contactlogo {
+        display: flex;
+        height: 341px;
+        width: 480px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #startbody {
+        /* width: 100vw;
+        height: 100vh;
+        background-color: white; */
+        display: grid;
+        grid-template-rows: 1fr 4fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:"header"
+                            "main"
+                            "footer";
+    } 
+    main {
+        /* background-image: none; */
+        background-color: rgb(52, 50, 50);
+    }
+    .galery-images {
+        border: none;
+        width: 240px;
+        height: 170px;
+    }
+    #contactlogo {
+        display: flex;
+        height: 170px;
+        width: 240px;
+    }
+}
