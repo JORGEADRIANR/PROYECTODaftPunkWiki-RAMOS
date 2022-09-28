@@ -1,0 +1,13 @@
+footer {
+    grid-area: footer;
+    background-color: black;
+    border-top: 7px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    #instagram {
+    }
+    #startbutton {
+    }
+}

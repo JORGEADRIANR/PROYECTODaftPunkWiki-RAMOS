@@ -1,0 +1,37 @@
+
+// INDEX
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "courierprime";
+    src: url(../assets/fonts/courierprime/CourierPrime-Regular.ttf);
+}
+
+#startbody {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'courierprime';
+    font-size: 18px;
+    color: red;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"header header header"
+                        "main main main"
+                        "footer footer footer";
+}
+
+@import "./header";
+@import "./main";
+@import "./footer";
+
+
+// GALERY
+
+@import "./main-galery";

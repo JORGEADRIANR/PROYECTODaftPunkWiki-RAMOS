@@ -1,0 +1,10 @@
+#galerymain {
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.galery-images {
+    border: 4px dashed red;
+}
