@@ -22,8 +22,7 @@ header {
                 justify-content: space-evenly;
                 li {
                     display: inline-block;
-                    margin: 5px;
-                    padding: .5em;
+                    margin: .5em;
                     border: 4px solid darkred ;
                     background-color:red;
 
@@ -33,6 +32,10 @@ header {
                         animation-iteration-count: infinite;
                     }
                     a {
+                        display: flex;
+                        width: 5em;
+                        height: 1.5em;
+                        justify-content: center;
                         text-decoration: none;
                         color: black;
                     }
