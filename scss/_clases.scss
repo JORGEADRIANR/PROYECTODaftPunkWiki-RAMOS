@@ -1,0 +1,16 @@
+@import "./mixins";
+
+.transformación {
+    @include transform;
+}
+
+.inputedit {
+    background-color: white;
+    border-style:hidden;
+    color: black;
+}
+
+.inputedit-foot {
+    @extend .inputedit;
+    background-color: red;
+}

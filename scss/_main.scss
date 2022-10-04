@@ -1,3 +1,7 @@
+@import "./mixins";
+@import "./clases";
+
+
 main {
     grid-area: main;
     background-image: url(../assets/images/673176AA.jpg);
@@ -6,4 +10,8 @@ main {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+    article {
+    }
+    div{
+    }
 }

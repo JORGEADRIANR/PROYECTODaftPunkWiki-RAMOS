@@ -31,11 +31,17 @@
 @import "./main";
 @import "./footer";
 
-
 // GALERY
 
 @import "./main-galery";
 
+// CONTACT
+
+#fieldsetedit {
+    border-style: none;
+    display: grid;
+    height: 200px;
+}
 
 // RESPONSIVE
 
@@ -45,25 +51,19 @@
     }
 }
 
-
 @media only screen and (max-width: 768px) {
     main {
-        /* background-image: none; */
         background-color: black
     }
     #contactlogo {
         display: flex;
-        /* justify-content: center;
-        align-items: center; */
         height: 511px;
         width: 720px;
     }
 }
 
-
 @media only screen and (max-width: 480px) {
     main {
-        /* background-image: none; */
         background-color: rgb(52, 50, 50);
     }
     .galery-images {
@@ -80,9 +80,6 @@
 
 @media only screen and (max-width: 320px) {
     #startbody {
-        /* width: 100vw;
-        height: 100vh;
-        background-color: white; */
         display: grid;
         grid-template-rows: 1fr 4fr 1fr;
         grid-template-columns: 1fr;
@@ -91,7 +88,6 @@
                             "footer";
     } 
     main {
-        /* background-image: none; */
         background-color: rgb(52, 50, 50);
     }
     .galery-images {

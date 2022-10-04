@@ -1,6 +1,8 @@
+@import "./variables";
+
 header {    
     grid-area: header;
-    background-color: black;
+    background-color:map-get($colores,"black");
     border-bottom: 7px solid red;
     color: white;
     display: grid;
@@ -11,7 +13,7 @@ header {
     justify-items: center;
     #starttitle {
         grid-area: title;
-        background-color: black;
+        background-color:map-get($colores,"black");
     }
     #nav {
         grid-area: nav;
@@ -24,7 +26,7 @@ header {
                     display: inline-block;
                     margin: .5em;
                     border: 4px solid darkred ;
-                    background-color:red;
+                    background-color:map-get($colores,"red");
 
                     &:hover {
                         animation-name: anim_buttons;
