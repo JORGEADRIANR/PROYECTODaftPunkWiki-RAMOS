@@ -13,4 +13,5 @@
 .inputedit-foot {
     @extend .inputedit;
     background-color: red;
+    border: 4px double darkred;
 }

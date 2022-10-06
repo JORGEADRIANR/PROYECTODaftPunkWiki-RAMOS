@@ -27,7 +27,6 @@ header {
                     margin: .5em;
                     border: 4px solid darkred ;
                     background-color:map-get($colores,"red");
-
                     &:hover {
                         animation-name: anim_buttons;
                         animation-duration: .60s;

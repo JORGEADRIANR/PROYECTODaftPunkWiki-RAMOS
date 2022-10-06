@@ -1,10 +1,13 @@
 #galerymain {
     display: flex;
-    flex-flow: row wrap;
-    align-items:center;
-    justify-content: space-evenly;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content:space-around;
 }
 
 .galery-images {
-    border: 4px dashed red;
+    border: 5px solid darkred;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }

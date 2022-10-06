@@ -35,6 +35,21 @@
 
 @import "./main-galery";
 
+// VIDEOS
+
+@import "./main-videos";
+
+// HISTORY
+
+
+
+#hist-main {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    color: white;
+}
+
 // CONTACT
 
 #fieldsetedit {
@@ -72,6 +87,11 @@
         height: 205px;
     }
     #contactlogo {
+        display: flex;
+        height: 341px;
+        width: 480px;
+    }
+    .videdit {
         display: flex;
         height: 341px;
         width: 480px;

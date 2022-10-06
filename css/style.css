@@ -153,6 +153,7 @@ header #nav nav ul li a {
 
 .inputedit-foot {
   background-color: red;
+  border: 4px double darkred;
 }
 
 main {
@@ -176,6 +177,7 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 footer {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
@@ -232,20 +234,59 @@ footer #startbutton :hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.galery-images {
+  border: 5px solid darkred;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-.galery-images {
-  border: 4px dashed red;
+#main-vid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "vids1 vids1 vids1" "vids2 vids2 vids2";
+}
+
+#vids1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: vids1;
+}
+
+#vids2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: vids2;
+}
+
+#hist-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
 }
 
 #fieldsetedit {
@@ -285,6 +326,14 @@ footer #startbutton :hover {
   }
 
   #contactlogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 341px;
+    width: 480px;
+  }
+
+  .videdit {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

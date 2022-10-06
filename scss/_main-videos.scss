@@ -1,0 +1,13 @@
+#main-vid {
+    display: grid;
+    grid-template-areas:"vids1 vids1 vids1"
+                        "vids2 vids2 vids2";
+}
+
+#vids1 {
+    grid-area: vids1;
+}
+
+#vids2 {
+    grid-area: vids2;
+}
